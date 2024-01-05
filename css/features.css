@@ -252,3 +252,15 @@ footer ul {
     border-radius: 50%;
     background-color: #88b44e;
 }
+.page-header .breadcrumb-item+.breadcrumb-item::before {
+    color: white;
+}
+
+.page-header {
+    background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header ol.breadcrumb {
+    background: none;
+    padding: 0; /* Optional: Remove default padding */
+}
